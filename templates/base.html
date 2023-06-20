@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Название сайта</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body>
+ <header>
+  <nav>
+   <ul>
+    <li><a href="#">ГЛАВНАЯ</a></li>
+    <li><a href="#">О НАС</a></li>
+    <li><a href="/contacts">КОНТАКТЫ</a></li>
+   </ul>
+  </nav>
+ </header>
+ <main role="main" class="container">
+     {% block content %}{% endblock %}
+<!--  подвальчик -->
+<footer>
+</footer>
+ </main>
+</body>
+</html>

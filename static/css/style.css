@@ -1,0 +1,235 @@
+//шапка и основное
+
+.header{
+background-color: black;
+}
+
+body {
+    background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+
+nav ul {
+padding-left: 20px;
+  padding-right: 100px;
+  list-style: none;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+  padding: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+nav a:hover, .header:active {
+        color: white;
+    }
+
+.logo h1 {
+  display: inline;
+}
+
+// основное
+// часть с ниггой
+.container {
+
+  position: relative;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.bottom-right-text {
+  position: absolute;
+  text-align: right;
+  top: 80%;
+  left: 80%;
+  color: pink;
+  font-size: 16px;
+  padding: 25px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.podchurka {
+position: absolute;
+  text-align: right;
+  top: 90%;
+  left: 90%;
+  color: pink;
+  font-size: 16px;
+  padding: 25px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1em;
+}
+.podchurka:hover {
+text-decoration-color: transparent;
+}
+
+img {
+  max-width: 1511px;
+  height: auto;
+}
+
+//команда
+
+.whitefon{
+background-color: white;
+}
+
+.team {
+  display: flex;
+
+  align-items: center;
+}
+
+.team_box {
+  width: 870px;
+  height: 83px;
+  background-color: pink;
+  margin-left: 186px;
+}
+
+.team_title {
+  margin-left: 10px;
+}
+
+photo-grid {
+  background-color: pink;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.sub-photos {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-photo {
+  position: relative;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.sub-photo img {
+  width: 350px;
+  height: auto;
+}
+
+.caption {
+  top: 370px;
+  left: 50%;
+  text-align: left;
+}
+
+.caption h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.steam-button {
+  border: 2px solid #aaa;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #aaa;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.steam-button:hover {
+  border: 2px solid #aaa;
+  color: #fff;
+}
+
+
+//достижения
+
+
+.achives {
+   position: relative;
+}
+
+.overlay {
+  position: absolute;
+  border: 10px solid pink;
+  top: 2400px;
+  left: 870px;
+  width: 464px;
+  height: 540px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.achi {
+  font-family: 'Montserrat', sans-serif;
+  color: pink;
+  text-align: center;
+  padding: 15px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: right;
+}
+.suka{
+ margin-top: 50px;
+}
+
+
+// главные достижения плюс история создания
+.mainachives{
+position: absolute;
+}
+
+.custom-btn {
+  position: absolute;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 10px 25px;
+  top: 3380px;
+  left: 227px;
+  text-decoration-color: transparent;
+}
+
+.custom-btn:hover {
+text-decoration-color: transparent;
+  border: none;
+  top: 3382px;
+  left: 228.5px;
+}
+
+// контакты
+hyi{
+  margin-up: 1000px;
+}
+// подвал
+
